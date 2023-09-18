@@ -7,18 +7,23 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
-
-.navbar-brand img{
-    mix-blend-mode: multiply;
+img{
+    object-fit: cover;
 }
+
 .navbar{
     position: sticky;
+    
     top: 0;
     z-index: 100;
-    border-bottom: 2px solid #41AC97;
+    
+    
 }
 .navbar-brand{
-   
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.5rem;
    text-align: center;
    font-weight: 500;
 
@@ -68,10 +73,139 @@
 #cart:hover{
     background-color: #00CED1;
 }
+/* CSS FOR CAROUSEL */
+#body{
+    
+    /* margin: 4rem; */
 
-  
+}
+#body h5{
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
+}
+#body p{
+    color: white;
+    font-size: 3rem;
+}
+#explore{
+    font-size: large;
+    font-weight: 500;
+    background-color: #41AC97;
+    color: white;
+    border: none;
+    margin: 0.625rem;
+    padding: 1rem 2rem;
+} 
+#explore:hover{
+    font-weight: bolder;
+}
+/* Grid Layout */
 
- 
+.container{
+    text-align: center;
+    padding: 4rem;
+    
+}
+.container p{
+    color: #2B3035;
+    padding: 0.625rem;
+    text-align: center;
+}
+.container h2{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.card-container{
+    text-align: center;
+   justify-content: space-evenly;
+   height: auto;
+}
+.card{
+    border: none;
+    display: inline-block;
+    width: 20rem;
+    margin: 2rem;
+    justify-content: center;
+    
+    
+}
+.card h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto;
+    padding: 1rem;
+}
+.card p{
+    font-size: 1rem;
+    text-align: left;
+    padding: 1rem;
+}
+/* About Section */
+.section-primary{
+   padding: 2rem; 
+    
+}
+.section-primary .row{
+    display: flex;
+    overflow: hidden;
+   
+}
+
+#about{
+    text-align: left;
+    margin: 1rem;
+    padding: 1rem;
+}
+#about h2{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+#about p{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#wd img{
+    object-fit: contain;
+}
+/* In Touch  */
+.w-100{
+    object-fit: fill;
+}
+/* FOOTEr */
+.container-primary{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+ .list{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.list li{
+    margin: auto;
+}
+.list .col{
+display: flex;
+margin: 10px;
+}
+.col h2{
+    margin: auto;
+}
+.col footer{
+    margin: auto;
+}
+#footer{
+    text-decoration: none;
+    color: black;
+}
 
 
  
