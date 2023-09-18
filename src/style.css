@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.navbar-brand img{
+    mix-blend-mode: multiply;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid #41AC97;
+}
+.navbar-brand{
+   
+   text-align: center;
+   font-weight: 500;
+
+} 
+
+#heading{
+    padding: 1.2rem; 
+}
+.nav-link{
+    font-size: 1rem;
+    margin: 0.625rem;
+    padding: 0.313rem;
+    color: #41AC97;
+    
+    
+}.nav-link:hover{
+    
+    border-bottom: 0.025rem solid #41AC97;
+}
+#searchbox{
+    border-radius: 0.625rem;
+    
+}
+#search{
+    color: #41AC97;
+    border: none;
+    margin: 2px;
+}
+
+#search:hover{
+    color: white;
+    background-color: #41AC97;
+}
+#user{
+
+    color: #41AC97;
+    border: none;
+    margin: 2px;
+    
+}
+#user:hover{
+    color: white;
+    background-color: #41AC97;
+}
+
+
+#cart:hover{
+    background-color: #00CED1;
+}
+
+  
+
+ 
+
+
+ 
+  
+ 
+  
+  
+
+  
+  
