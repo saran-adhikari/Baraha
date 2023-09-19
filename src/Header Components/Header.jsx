@@ -34,17 +34,17 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to='/football' className="nav-link active" aria-current="page">
+                <Link to='/about' className="nav-link active" aria-current="page">
                   ABOUT
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to='/casual' className="nav-link active" aria-current="page">
+                <Link to='/services' className="nav-link active" aria-current="page">
                   SERVICES
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to='/formal' className="nav-link active" aria-current="page">
+                <Link to='/contact' className="nav-link active" aria-current="page">
                   CONTACT
                 </Link>
               </li>

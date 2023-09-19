@@ -12,7 +12,7 @@ function Carousel() {
               <p>
               ENDLESS POTENTIAL
               </p>
-              <button id="explore" className="btn btn-primary" type="submit">EXPLORE</button>
+              <Link to='/services' id="explore" className="btn btn-primary" type="submit">EXPLORE</Link >
             </div>
           </div>
         </div>
