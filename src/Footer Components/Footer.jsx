@@ -16,7 +16,7 @@ function Footer() {
             </div> */}
             
             
-           <footer> &copy; BARAHA FOUNDATION, 2023</footer>
+           <footer> &copy; BARAHA FOUNDATION, 2023. All Rights Reserved</footer>
             
         
             
